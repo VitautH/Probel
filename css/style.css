@@ -1,0 +1,314 @@
+header {
+  background-color:   #f5f5f5;
+    height: 105px;
+}
+.logo {
+    margin-left: 27px;
+    margin-top: 35px;
+    width: 152px;
+    height: 33px;
+    object-fit: contain;
+}
+
+header span.title {
+margin-top: 14px;
+    display: block;
+    margin-left: 16px;
+    width: 302px;
+    height: 22px;
+    font-family: OpenSans;
+    font-size: 13px;
+    line-height: 1.7;
+    letter-spacing: 0.4px;
+    color: #878787;
+
+}
+input[type="search"] {
+    all: unset;
+
+}
+
+p {
+    all:unset;
+}
+input[type="search"] {
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    width: 375px; /* Ширина поля */
+    vertical-align: middle; /* Выравнивание по середине */
+    height: 35px;
+}
+header .search {
+    margin-left: 16px;
+    width: 403px;
+    height: 35px;
+    background-color: #ffffff;
+    border: solid 1px #d9d9d9;
+
+}
+
+input[type="submit"] {
+
+    border: none; /* Убираем рамку */
+    background: url(../img/group-22.png) no-repeat 50% 50%; /* Параметры фона */
+
+    width: 16px;
+    height: 17px;
+    object-fit: contain;
+
+}
+
+ input:-ms-input-placeholder, input:-moz-placeholder, input::-webkit-input-placeholder,
+ input::-moz-placeholder     {
+    width: 254px;
+    height: 19px;
+    font-family: OpenSans;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #acacac;
+     margin-left: 12px;
+ }
+
+ .phone-number {
+     margin-top: 38px;
+     margin-left: -14px!important;
+ }
+.phone-number span.tel-code {
+
+font-weight: bold;
+    width: 76px;
+    height: 22px;
+    font-family: Avenir-Black;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+    color: #313131;
+
+}
+.phone-number .call  {
+    width: 107px;
+    height: 18px;
+    font-family: OpenSans;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    clear: left;
+    float: left;
+    border-bottom: 1px #d8d8d8 dotted;
+
+}
+.phone-number span.tel {
+    font-weight: bold;
+    width: 117px;
+    height: 29px;
+    font-family: Avenir-Black;
+    font-size: 21px;
+    letter-spacing: 1.1px;
+
+}
+
+nav{
+
+    height: 42px;
+    background-color: #313131;
+}
+nav ul {
+    position: absolute;
+}
+ul > li {
+    list-style: none;
+}
+nav ul > li {
+width: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 42px;
+    float:left;
+    margin-left: 40px;
+}
+nav ul> li:hover {
+
+cursor: pointer;
+    background-color: #595959;
+
+}
+
+nav ul> li:hover a {
+    color: white;
+    text-decoration: none;
+
+}
+nav ul li > a {
+
+    margin-top: 10px;
+    display: block;
+
+    font-family: OpenSans-Bold;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #ffffff;
+
+}
+nav ul li > ul.submenu {
+
+    display: none;
+}
+nav ul li:hover > ul.submenu {
+    display: block!important;
+    z-index: 999;
+    position: absolute;
+    top: 42px;
+    width: 237px;
+    min-height: 267px;
+    background-color: #ffffff;
+    box-shadow: 2px 6px 11px 0 rgba(172, 172, 172, 0.5);
+margin-left: -10px;
+}
+
+nav  ul.submenu > li:hover
+{
+  background: none;
+}
+nav  ul.submenu  li {
+    margin-top: 12px;
+    margin-left: 18px;
+    width: auto;
+    float: left;
+    clear: both;
+}
+nav  ul.submenu li > a {
+    padding: 0;
+    font-weight: bold;
+    list-style: none;
+  margin-left: 0;
+    margin-top: 0;
+    font-family: OpenSans;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    color: #3d3d3d;
+
+}
+nav  ul.submenu li:hover > a {
+font-weight: bold;
+font-family: OpenSans-Semibold;
+font-size: 13px;
+letter-spacing: 0.2px;
+color: #ff6900;
+}
+
+.slider{
+    height: 400px;
+    background-color: #f1f1f1;
+}
+.slider .content {
+    margin-top: 82px;
+}
+.slider > h1 {
+
+    height: 43px;
+    font-family: OpenSans-Semibold;
+    font-size: 26px;
+    line-height: 1.7;
+    letter-spacing: 0.4px;
+    color: #313131;
+
+}
+
+.slider > p {
+
+margin: 0 6px 10px;
+font-weight: bold;
+    height: 40px;
+    font-family: OpenSans-Semibold;
+    font-size: 13px;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    color: #313131;
+
+}
+
+.slider  img {
+width: 418px;
+    width: 418px;
+    height: 249px;
+    object-fit: contain;
+    margin-top: 84px;
+
+}
+
+.grid {
+    width: 100%;
+    clear: both;
+}
+.grid .mosaic-1 {
+    background-size: cover;
+    max-width: 33%;
+    background-repeat: no-repeat;
+
+    min-width: 400px;
+    cursor: pointer;
+    height: 320px;
+    object-fit: contain;
+ background-image: url("../img/mosaic1.png");
+    float: left;
+}
+
+
+.grid .mosaic-2 {
+    float:left;
+    background-size: cover;
+    max-width: 33%;
+    background-repeat: no-repeat;
+
+    min-width: 400px;
+    cursor: pointer;
+    height: 320px;
+    object-fit: contain;
+    background-image: url("../img/mosaic-2.png");
+
+}
+
+.grid .mosaic-3 {
+    float:left;
+
+    background-size: cover;
+    max-width: 33%;
+    background-repeat: no-repeat;
+
+    min-width: 400px;
+    cursor: pointer;
+    height: 320px;
+    object-fit: contain;
+    background-image: url("../img/mosaic-2.png");
+}
+.grid .mosaic-1:hover > .content{
+    display: block;
+}
+.grid .content {
+    display: none;
+  width: 400px;
+    height: 320px;
+    object-fit: contain;
+    opacity: 0.8;
+    background-color: #313131;
+
+}
+
+.grid .mosaic-1:hover >   span.title {
+    display: none!important;
+}
+.grid span.title {  width: 36px;
+    height: 22px;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #313131;
+    padding: 7px;
+    position: relative;
+    top: 242px;
+    left: 30px;
+}
