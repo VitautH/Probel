@@ -1,0 +1,200 @@
+body.tax-product_cat {
+    background-color: #f5f5f5;
+}
+body.tax-product_cat aside {
+    margin-top: 115px;
+}
+
+body.tax-product_cat aside .breadcrumb {
+    margin-top: 31px;
+margin-left:0;
+}
+body.tax-product_cat aside .breadcrumb a:first-child{
+    margin-left: 0;
+}
+body.tax-product_cat aside .breadcrumb a {
+    height: 18px;
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 0.2px;
+    color: #313131;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+body.tax-product_cat aside .breadcrumb a.current, body.catalog aside .breadcrumb a.current:hover  {
+    height: 18px;
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 0.2px;
+    color: #878787;
+    cursor: default;
+    text-decoration: none;
+
+}
+
+body.tax-product_cat aside.filter {
+    margin-top: 18px;
+}
+
+body.tax-product_cat aside.filter .filter-block{
+    width: 286px;
+    height: 1043px;
+    background-color: #ffffff;
+    border: solid 1px #e0e0e0;
+    border-right: 0!important;
+}
+
+body.tax-product_cat .item:hover {
+    box-shadow: 2px 6px 11px 0 rgba(172, 172, 172, 0.5);
+}
+
+body.tax-product_cat article .item  .new {
+    width: 91px;
+    height: 20px;
+    background-color: #1ab50d;
+
+    font-family: OpenSans;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    color: #ffffff;
+    text-align: center;
+}
+
+body.tax-product_cat article .item  .hits {
+    width: 91px;
+    height: 20px;
+    background-color: #df2239;
+
+    font-family: OpenSans;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    color: #ffffff;
+    text-align: center;
+}
+
+body.tax-product_cat article .item  .default
+{
+    width: 91px;
+    height: 20px;
+
+
+    font-family: OpenSans;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    color: #ffffff;
+    text-align: center;
+
+}
+body.tax-product_cat .item {
+    width: 286px;
+    height: 400px;
+    background-color: #ffffff;
+    border: solid 1px #e0e0e0;
+    margin-left: 0;
+    cursor: pointer;
+}
+body.tax-product_cat .item  .line {
+    width: 224px;
+    margin-left: 31px;
+    border: solid 1px #e7e7e7;
+}
+body.tax-product_cat .item img {
+    width: 120px;
+    height: 131px;
+    object-fit: contain;
+    margin-top: 28px;
+    margin-left: 83px;
+    margin-bottom: 24px;
+    margin-right: 83px;
+}
+body.tax-product_cat .item span.title_item {
+    height: 40px;
+    object-fit: contain;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.43;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #000000;
+    margin-left: 42px;
+    margin-top: 24px;
+    display: block;
+
+    word-wrap: break-word;
+    margin-right: 41px;
+}
+
+body.tax-product_cat .item .price {
+    width: 121px;
+    height: 27px;
+    margin-left: 84px;
+    display: block;
+    margin-top: 26px;
+    margin-bottom: 10px;
+}
+body.tax-product_cat .item button.buy {
+    width: 97px;
+    height: 32px;
+    background-image: linear-gradient(to bottom, #ffa200, #ff6900);
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #ffffff;
+    border: 0;
+    margin-top: 14px;
+    float: left;
+    margin-left: 72px;
+}
+body.tax-product_cat button.buy:hover {
+    background-color: #ff6900;
+    background-image: none;
+}
+
+body.tax-product_cat a.product_in_cart, body.tax-product_cat a.product_in_cart:hover  {
+    width: 97px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #ffffff;
+    border: solid 1px #ff6900;
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #ff6900;
+    text-decoration: none;
+    margin-top: 14px;
+    float: left;
+    margin-left: 72px;
+}
+body.tax-product_cat  button.not_buy
+{
+    width: 97px;
+    height: 32px;
+    background-color: #e0e0e0;
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #ffffff;
+    border: 0;
+    margin-top: 14px;
+    float: left;
+    cursor: default;
+    margin-left: 72px;
+
+}
+body.tax-product_cat footer {
+    margin-top: 75px;
+}

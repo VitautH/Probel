@@ -1,0 +1,312 @@
+body.woocommerce-checkout {
+    background-color: #f5f5f5;
+}
+body.woocommerce-checkout  aside {
+    margin-top: 115px;
+}
+
+body.woocommerce-checkout  aside span {
+    margin-top: 31px;
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    color: #000000;
+    display: block;
+}
+
+body.woocommerce-checkout .main_block .contact_block {
+margin-top: 18px;
+    height: 620px;
+    background-color: #ffffff;
+    border: solid 1px #e0e0e0;
+}
+
+body.woocommerce-checkout  .main_block .method_block {
+    margin-top: 18px;
+margin-left: 0!important;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    border: solid 1px #e0e0e0;
+}
+
+body.woocommerce-checkout .main_block .contact_block span.title, body.woocommerce-checkout .main_block .method_block span.title , body.woocommerce-checkout .main_block .payment_block span.title {
+    height: 43px;
+    font-family: OpenSans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.79;
+    letter-spacing: 0.4px;
+    color: #313131;
+    margin-left: 43px;
+    margin-top: 46px;
+    display: block;
+}
+
+body.woocommerce-checkout .contact_form {
+    margin-top:25px;
+    margin-left: 43px;
+}
+
+body.woocommerce-checkout  input.input-text {
+    width: 342px!important;
+    height: 31px!important;
+    background-color: #ffffff;
+    border: solid 1px #cdcdcd;
+    border-radius:0!important;
+    padding: 0 !important;
+    float:none!important;
+    margin-top: 10px;
+}
+
+body.woocommerce-checkout  .woocommerce form .form-row-first, body.woocommerce-checkout  .woocommerce form .form-row-last, body.woocommerce-checkout  .woocommerce-page form .form-row-first, body.woocommerce-checkout  .woocommerce-page form .form-row-last {
+   float: none!important;
+    width: 342px!important;
+
+}
+
+body.woocommerce-checkout  .woocommerce form .form-row-last, .woocommerce-page form .form-row-last {
+    float: none!important;
+}
+
+body.woocommerce-checkout  .contact_form span {
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.54;
+    letter-spacing: 0.2px;
+    color: #313131;
+    margin-top: 9px;
+}
+
+body.woocommerce-checkout  .contact_form span span.required, .required {
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.43;
+    letter-spacing: 0.4px;
+    color: #ff6900;
+}
+body.woocommerce-checkout #order_comments
+{
+    width: 342px;
+    height: 96px;
+    background-color: #ffffff;
+    border: solid 1px #cdcdcd;
+    margin-top: 9px;
+}
+
+body.woocommerce-checkout .payment_block {
+    width: 570px;
+padding-buttom: 20px;
+    background-color: #ffffff;
+    border: solid 1px #e0e0e0;
+
+}
+
+ #payment_method_business_oncore, #payment_method_cash_oncore, #terms, #shipping_method_0_couier, #shipping_method_0_local_self_export, #shipping_method_0_mail {display: none;}
+[for="payment_method_business_oncore"], [for="payment_method_cash_oncore"], [for="terms"],  [for="shipping_method_0_couier"],[for="shipping_method_0_local_self_export"],[for="shipping_method_0_mail"]    {
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+    border: solid 2px #ff6900;
+
+    position: relative;
+    display: block;
+
+    border-radius: 100%;
+
+
+
+}
+[for="payment_method_business_oncore"]:after, [for="payment_method_cash_oncore"]:after, [for="terms"]:after, [for="shipping_method_0_couier"]:after , [for="shipping_method_0_local_self_export"]:after  , [for="shipping_method_0_mail"]:after   {
+    content: "";
+    position: absolute;
+    left: 25%;
+    top: 20%;
+
+    border-radius: 100%;
+}
+
+#payment_method_business_oncore:checked ~ [for="payment_method_business_oncore"]:after, #payment_method_cash_oncore:checked ~ [for="payment_method_cash_oncore"]:after, #terms:checked ~ [for="terms"]:after, #shipping_method_0_couier:checked ~ [for="shipping_method_0_couier"]:after, #shipping_method_0_local_self_export:checked ~ [for="shipping_method_0_local_self_export"]:after
+, #shipping_method_0_mail:checked ~ [for="shipping_method_0_mail"]:after
+{
+    width: 8px;
+    height: 8px;
+    background: #ff6900;
+}
+.payment_method_cash_oncore {
+    margin-bottom: 19px;
+}
+
+.radio, .checkbox {
+    min-height: 0!important;
+    display: block!important;
+  padding-left: 0!important;
+}
+span.title_method_pay,span.terms_title{
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.54;
+    letter-spacing: 0.2px;
+    color: #313131;
+    float: left;
+    /* clear: both; */
+    margin-left: 26px;
+    margin-top: -24px;
+    display: block;
+}
+ul.wc_payment_methods  {
+    margin-top: 24px;
+    margin-left: 47px;
+}
+
+button.place-order-button {
+    width: 180px;
+    height: 38px;
+    background-image: linear-gradient(to bottom, #ffa200, #ff6900);
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ffffff;
+    border: 0;
+    margin-top: 14px;
+}
+
+.wc-terms-and-conditions {
+    display: block;
+
+    margin-left: 46px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.woocommerce-message{
+ display: none!important;
+}
+
+ul#shipping_method {
+    margin-top: 28px;
+    margin-left: 45px;
+}
+
+ul#shipping_method > li {
+    list-style: none;
+    float: left;
+
+    width: 107px;
+    margin-right: 30px;
+
+}
+
+ul.shipping_box {
+    z-index: 999;
+    position: relative;
+    top: 16px;
+    margin-left: 0;
+}
+
+span.remark {
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.69;
+    letter-spacing: 0.4px;
+    color: #454545;
+}
+ul.shipping_box .contact_form {
+    margin-left: 0;
+    margin-top: 18px;
+}
+
+ul.shipping_box  .contact_form span {
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.54;
+    letter-spacing: 0.2px;
+    color: #313131;
+    margin-top: 9px;
+    margin-bottom: 9px;
+
+}
+.shipping_method_0_local_self_export span.remark
+{
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.69;
+    letter-spacing: 0.4px;
+    color: #878787;
+    margin-right: 70px;
+}
+ul.shipping_box  .contact_form span .input-text, ul.shipping_box  .contact_form span .state_select{
+    margin-bottom: 10px;
+}
+
+ul.shipping_box span.address_title {
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.54;
+    letter-spacing: 0.2px;
+    color: #313131;
+}
+ul.shipping_box span.address  {
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.69;
+    letter-spacing: 0.4px;
+    color: #878787;
+}
+ul.shipping_box span.maps {
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 9px;
+}
+
+ul.shipping_box .free_title{
+    font-family: OpenSans;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.69;
+    letter-spacing: 0.4px;
+    color: #454545;
+    display: block;
+    margin-bottom:18px;
+}
+ul.shipping_method_0_mail .contact_form{
+  margin-top: 0!important;
+}
+
+#shipping_state_field_mail {
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+.pay_button_block {
+    margin-top: 14%;
+    position: relative;
+    height: auto;
+}
+body.woocommerce-checkout  footer{
+margin-top: 75px;
+}
+
